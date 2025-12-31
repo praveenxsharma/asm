@@ -1,0 +1,8 @@
+> starts with global _start
+> divided in 3 sections 
+  //.text --> whole code is stored here 
+  //.data --> all initialized data/input values are stored here
+  //.bss --> all values which are taken from user are stored here
+>after syscall the output is stored in rax for short time if not being overwrited using other instruction
+>newline character "10" takes up one byte of space
+>
